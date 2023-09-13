@@ -1,11 +1,9 @@
-import sys
 import streamlit as st
 from helper import search_frame
 import os, shutil
 from docarray import Document
 import asyncio
 import time
-import os
 
 st.set_page_config(page_title='Video Retrieval', page_icon='🔍')
 st.title('Video Retrieval')
