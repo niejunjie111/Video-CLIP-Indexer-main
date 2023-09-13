@@ -4,10 +4,8 @@ from helper import search_frame
 import os, shutil
 from docarray import Document
 import asyncio
-import nest_asyncio
 import time
 import os
-nest_asyncio.apply()
 
 st.set_page_config(page_title='Video Retrieval', page_icon='🔍')
 st.title('Video Retrieval')
